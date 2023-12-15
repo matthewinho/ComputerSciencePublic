@@ -194,7 +194,7 @@ for i in range (0,n):
     
 #15
     
-import math
+
 base = int(input("Enter a base number"))
 exp = int(input("Enter an exponent number"))
 c = 0
