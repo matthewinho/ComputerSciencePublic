@@ -1,0 +1,197 @@
+# ADDING binary
+print("add SPACES between each number")
+list1 = []
+list2 = []
+new = []
+
+a = input("Enter Binary: ")
+list1 = a.split()  
+
+print(list1)
+
+#list1 = a.split()
+#print(list1)
+#list1 = [int(num) for num in list1]
+
+
+b = input("Enter your 2ND Binary: ")
+list2 = b.split()  
+for i in range:
+    
+    print(list2)
+#CARRY
+    carry = 0
+    ADD =  list1[-1]
+    ADD2 =  list2[-1]
+
+
+    test = int(ADD)
+
+    test2 = int(ADD2)
+    add3 = test + test2 + carry
+    print(add3)
+
+    if 2 == add3:
+        
+        carry = 1
+    
+    
+        new.append(0)
+    
+       
+    elif 3 == add3:
+        carry = 1
+        new.append(1)
+    elif 1 == add3:
+        carry = 0
+        new.append(1)
+    else:
+        carry = 0
+        new.append(0)
+        print("BINARIES ADDED TOGETHER:",new)
+ 
+if 2 == add4:
+    carry = 1
+
+    
+    new.append(0)
+
+ #beep   
+
+ADDX =  list1[0]
+ADDY =  list2[0]
+
+test3 = int(ADD)
+
+test4 = int(ADD2)
+add4 = test3 + test4 + carry
+print(add4)
+if 2 == add3:
+    carry = 1
+    
+    
+    new.append(0)
+    
+       
+elif 3 == 3:
+    carry = 1
+else:
+    carry = 0
+    
+if 2 == add4:
+    carry = 1
+    
+    
+    new.append(0)
+
+ADDI =  list1[1]
+ADDO =  list2[1]
+
+test5 = int(ADDI)
+
+test6 = int(ADDO)
+add5 = test5 + test6 + carry
+print(add5)
+if 2 == add3:
+    carry = 1
+    
+    
+    new.append(0)
+    
+       
+elif 3 == 3:
+    carry = 1
+    new.append(1)
+else:
+    carry = 0
+    new.append(0)
+    
+if 2 == add4:
+    carry = 1
+    
+    
+    new.append(0)
+
+ADDL =  list1[2]
+ADDP =  list2[2]
+
+test7 = int(ADDL)
+
+test8 = int(ADDP)
+add6 = test7 + test8 + carry
+print(add6)
+
+if 2 == add3:
+    carry = 1
+    
+    
+    new.append(carry)
+    
+       
+elif 3 == 3:
+    carry = 1
+    new.append(1)
+else:
+    carry = 0
+    new.append(0)
+    
+if 2 == add4:
+    carry = 1
+    
+    
+    new.append(carry)
+#boop
+"""
+if 2 == add3:
+    carry = 1
+    
+    
+    new.append(0)
+    
+       
+elif 3 == 3:
+    carry = 1
+else:
+    carry = 0
+    
+if 2 == add4:
+    carry = 1
+    
+    
+    new.append(0)
+    
+       
+elif 3 == 3:
+    carry = 1
+    new.append(carry)
+else:
+    carry = 0
+    
+if 2 == add5:
+    carry = 1
+    
+    
+    new.append(0)
+    
+       
+elif 3 == 3:
+    carry = 1
+    new.append(carry)
+else:
+    carry = 0
+    
+    
+if 2 == add6:
+    carry = 1
+    
+    
+    new.append(0)
+    
+       
+elif 3 == 3:
+    carry = 1
+    new.append(carry)
+else:
+    carry = 0
+"""
+    
