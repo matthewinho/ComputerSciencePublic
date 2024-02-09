@@ -1,5 +1,5 @@
 #decimal to hexdecimal
-A = int(input("Deciaml"))
+lol = int(input("Deciaml"))
 def binary(A):
     Binary = []
     while A > 0:
@@ -21,7 +21,11 @@ def binary(A):
 
         Binary.insert(0,remainder)
         A = B
-    return ("")
+    return (Binary)
  
-X = binary(A)
+X = binary(lol)
+
+
+
+ 
 print(X)
