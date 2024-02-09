@@ -1,0 +1,7 @@
+binary =input("Enter a binary number\n -> ")
+ 
+dex = 0
+ 
+for number in binary:
+    dex = dex  * 2 +int(number)
+print("The binary number",binary,"is", dex,"in decimal form")
