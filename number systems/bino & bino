@@ -1,4 +1,5 @@
 # ADDING binary
+#NEEDS TO BE ADJUSTED SLIGHTLY
 print("add SPACES between each number")
 list1 = []
 list2 = []
