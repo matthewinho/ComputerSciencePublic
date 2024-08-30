@@ -1,0 +1,22 @@
+#TEST
+ 
+ 
+# For list of integers
+lst1 = []
+W  = []
+POS = 0
+ 
+
+lst1 = [int(item) for item in input("Enter \
+             the list items : ").split()]
+print(lst1)
+ 
+#acc = [X:Y]
+#SIMPLE SORT
+a = min(lst1)
+for  i in range(len(lst1)) :
+    POS = POS+1
+    a = min(lst1)
+    W.insert(POS,a)
+    lst1.remove(a)
+    print(W,"NEW LIST")
