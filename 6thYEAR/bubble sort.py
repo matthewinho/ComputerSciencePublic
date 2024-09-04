@@ -1,3 +1,7 @@
+#getting colours
+import colorama
+from colorama import Fore, Back, Style 
+#UNIVERSALdesign
 
 def bubble_sort(arr):
     n = len(arr)
@@ -21,4 +25,4 @@ unsorted_list =  [int(item) for item in input("Enter the list items with space b
 
 #unsorted_list = [64, 34, 25, 12, 22, 11, 90]
 sorted_list = bubble_sort(unsorted_list)
-print("Sorted List:", sorted_list, "[FINAL PHASE COMPLETE]")
+print("Sorted List:", sorted_list, Fore.GREEN+ "[FINAL PHASE COMPLETE]")
