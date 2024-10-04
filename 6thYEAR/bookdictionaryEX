@@ -1,0 +1,73 @@
+
+"""
+a = input({"add in a sentence"})
+word = a.split()
+print(word)
+ba =  []
+#duck = {}
+"""
+"""
+a = input("add in a sentence")
+ 
+ 
+# EXCERSIZE 2 
+def freq(a):
+    check = [" "]
+    n = len(a)
+    for i in range (0,n):
+        if a[i] not in check:
+            check.append(a[i])
+            b = a[i]
+            frequency = a.count(b)
+            print(b, "occurs" , frequency, "amount of times")
+
+Awns =freq(a)
+"""
+#EX 1
+
+b = input("add in a sentence")
+word = b.split()
+leng = len(b)
+checked = {}
+for i in word:
+
+    if i not in checked:
+        checked[i] = 1
+    else:
+        checked[i] = checked[i] +1
+#a = checked.lower()
+print(checked)
+
+
+
+
+
+
+
+
+
+
+"""
+dictionary = {}
+
+f = open("book.txt","r")
+
+for line in f:
+    line = line.strip()
+    line = line.split()
+    for word in line:
+        if word in dictionary:
+            dictionary[word] = dictionary[word] +1
+            
+        else: dictionary[word] = 1
+
+"""
+#print(dictionary)
+#a=max(dictionary["word"])
+#a= bool(dictionary)
+#print(a)
+#print(ban)
+  
+
+# key and value
+
