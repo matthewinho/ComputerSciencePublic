@@ -1,0 +1,49 @@
+"""
+i1 =input("enter a word"	)
+def banana(B):
+    ret = "un"+i1
+    return(ret)
+
+fin = banana(i1)
+print(fin)
+
+
+
+i2 =input("enter a word"	)
+def banana(B):
+    ret = i2 + "s"
+    return(ret)
+
+cool = banana(i2)
+print(cool)
+"""
+
+
+#import math.py
+#3
+"""
+int3 = int(input("Enter diameter of circle:  "))
+def  circle_area(x):
+   a =  x/2
+   b= 3.14
+   c = a*a
+   res =a*b*c
+   return(res)
+Cans = circle_area(int3)
+print("the area of the circle using the diameter is",Cans)
+#4
+"""
+int4 = int(input("enter the width:  "))
+int5 = int(input("enter the height:  "))
+def  rectangle_area(x,y):
+   a =  x*y
+   
+   return(a)
+Rans = rectangle_area(int4,int5)
+print("the area of the rectangle",Rans)
+
+
+
+# stuff is in other file too
+ 
+ 
