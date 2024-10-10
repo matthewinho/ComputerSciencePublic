@@ -1,0 +1,58 @@
+"""
+#recursive function
+def fac(n):
+    if n<=1:
+        return 1
+    else:
+        return n * fac(n-1)
+a = fac(5)
+print(a)
+
+
+# recursively processing a list or string
+ 
+"""
+"""
+def mylen(s):
+    if s == ''
+    return 0
+ 
+    else:
+        len_rest =mylen(s[1:])
+"""
+"""
+#Write a Python program to calculate the sum of a list of numbers using recursion
+"""
+L = [1,2,3,4]
+
+def sim(i):
+    if len(i) == 0:
+        return 0
+    
+    else:
+        return i[0]+ sim(i[1:])
+af = sim(L)
+print(af)
+
+
+#2. Write a Python program to get the sum of a non-negative integer using recursion
+"""
+L1 = [-1,-2,-54,1,2,3,4]
+y = 0
+a = L[y]
+def kin(o):
+    
+   for i in range(len(L1)):
+       
+       y =y+1
+   a = L[y]
+       
+    if len(o) == 0:
+        return 0
+    if P[y] == 0:
+        return 0 
+    else:
+        return o[0]+ sim(o[1:])
+xd = kin(L1)
+print(xd)
+"""
