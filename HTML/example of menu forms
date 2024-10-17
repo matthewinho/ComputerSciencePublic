@@ -1,0 +1,67 @@
+<!Doctype html>
+
+<html> 
+
+
+<head> 
+
+    <title> Forms examples</title>
+</head>
+
+
+
+<!-- BODY-->
+
+<body>
+
+    
+</body>
+<forms>
+    <label for = "fname =">First name</label> 
+<input type = "text" id = "fname" name ="fname"><br>
+<label for = "lname" > Last name</label>
+<input type = "text " id = "lname" name=" lname"><br> 
+
+
+<!-- no need to put submit or forms again-->
+<label for = "pwd">password:</label>
+<input type="password" id = "pwd" name = "pwd" required><br> <!-- if u want to see the password u must change the type to "text" This is how toggle buttons work on your login screen-->
+
+<input type = "checkbox" id = "vehicle1 " name = "vehicle1"
+value = "Bike">
+<label for = "vehicle1" > I have a bike</label><br> 
+<input type = "checkbox" id ="vehicle2" name = "vehicle2" value = "Car" 
+checked = "checked">
+<label for = "vehicle2" > I have a car</label><br>
+
+<input type = "radio" id = "male " name = "gender" value = "Male">
+<label for = "male">Male</label><br>
+<input type="radio" id = "female" name = "gender" value = "Female"
+checked = "checked">
+
+<label for  = "female">Female</label><br>
+
+
+
+
+
+
+<input type = "reset" value = "reset">
+<input type = "button" value = "clicker to stimulate ur attention span">
+<select name = "car">
+<option>Volvo</option>
+<option>Mercedes</option>
+<option>Audi</option>
+<option>Saab</option>
+</select>
+</forms> 
+
+
+
+
+<input   type = "submit" value = "Submit">
+
+<!-- for radio u can select only one option-->
+
+
+</html>
