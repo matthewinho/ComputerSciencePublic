@@ -1,0 +1,67 @@
+<!Doctype html>
+<html>
+    <head>
+    <title>salad assignment</title>
+   <!-- internal style sheet (added in head tag)-->
+   <style>
+
+
+
+ 
+   </style>
+   <!--external style sheet-->
+   <link rel="stylesheet" href="in.css">
+</head>
+    <body style="background-color: rgb(172, 128, 197);">  <!-- inline style: go into the tag and do it -->
+    
+    <!--different heading types 1 BIGGEST size FONT TO SMALLEST-->
+   
+    <h4> Recipe book  </h4>
+    <ul></ul>
+        <li> <a href=file:///C:/Users/Matthew/Downloads/coding/index.html>Home</a> </p></li>   <!--unordered LIST = adds bullet points too?-->
+        <li>Recipes</li>
+        <li>Tips </li>
+        <li>Contributors</li>
+        <li>About</li>
+    </ul>
+     <!-- ID SHOULD BE USED FOR UNIQUE STYLE AND CLASS FOR GENERAL-->
+    <h2 id = "cool" > CARROT AND KALE SALAD </h2>
+    <h3  class = "lemon"> Submitted by matthew keane </h3>
+    <img src="salad.jpg"  alt ="ALTERNATEtext"> </img>
+    <P>This salad is a great spicy treat to go along with any meal. I like to add extra Sriracha to the salad for
+        added spice. This recipe is gluten free. Sriracha contains anchovies, so it's not quite vegetarian or vegan</P> <!-- MUST BE IN BODY PARAGRAPH-->
+        <h4>Instructions  </h4>
+    <ul>
+       
+    </ul>
+    
+
+        <li>3 cups carrot strings using julienne peeler </li>
+        <li> 2 cups thinly sliced tuscan kale (also called Lacinato kale)</li>
+        <li>3 tablespoons creamy peanut butter </li>  
+        <li> 1 tablespoons Sriracha (less if you're sensitive to spice </li>
+        <li>3 tablespoons almond milk</li>
+        <li> .5 teaspoon sesame oil</li>
+        <li>.5 teaspoon extra virgin olive oil </li>
+        <li>.5 teaspoon apple cider vinegar </li>
+        <li>.5 tablespoon maple syrup</li>
+        <li> .5 teaspoon freshly grated ginger</li>
+        <li>pinch of salt</li>
+        <li>sesame seeds for garnish</li>
+    
+    </ul>
+
+        
+<div> <h4>Instructions  </h4> </div>
+    <ol> <!--ordered list-->
+        <li>Toss carrots and kale together in a large bowl </li>   
+        <li>Whisk together the remaining ingredients except sesame seeds in a small bowl. Add more milk if
+            necessary to get the desired consistency </li>
+        <li>Pour dressing on top of the carrots and kale and toss until fully coate </li>
+        <li> Garnish with sesame seeds and serve </li>
+       </ol>
+   <!--IMAGE TAGSSS-->
+
+ 
+    </body>
+</html>
