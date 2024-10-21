@@ -1,0 +1,50 @@
+Lint = ['1','2','3']
+c = ['5','6','10']
+b = ['7','8','9'] #adding columns togetherr 2,6,8 = 16
+def returnme(x,z,y):
+    return int(x) + int(y) +int(z)
+
+
+print(Lint)
+
+result =  list(map(returnme,b,c,Lint))
+print(result)
+
+
+#calls function for each value and stores the results and converts result into List
+# from quoted to numbered
+# can take multiple arguements
+
+
+
+
+words = ['apple', 'banana', 'cherry']
+
+def f(x):
+    #a = words.split()
+    return x[0]
+
+print(words)
+
+res = list(map(f,words))
+print(res)
+
+
+def upper(z):
+     
+    
+    return z.upper()
+
+k = list(map(upper,words))
+print(k)
+
+s = [' hello ', ' world ', ' python ']
+def ban(x):
+    return x.strip()
+
+lol = list(map(ban,s))
+print(lol)
+
+#PUT FUNCTION FIRST
+
+#celsius = [0, 20, 37, 100]
