@@ -1,0 +1,44 @@
+// NUMBER 1
+
+let var1 = 3;
+let var2 = 4;
+let var3 = 5;
+var1 = var1 +var2
+var2 = var2+var3
+console.log(var1,var2,var3)
+
+output:2 7 9 5
+
+
+var2 = var2+var3
+console.log(var1,var2,var3)
+
+
+//N2
+
+let n = 3;
+total = n + (n+1) +(n+2)
+
+12
+
+console.log(total)
+
+//N3
+let radius = 3
+let PI = 3.14
+area = PI*radius**2
+console.log(area)
+
+//N4
+
+
+let base = 5;
+let height = 10;
+let half = 0.5
+total1 = half*base*height
+
+//N5
+
+
+let n = 2;
+ans4 =n,"\n", n**2 , "\n", n**3, "\n" , n**4;
