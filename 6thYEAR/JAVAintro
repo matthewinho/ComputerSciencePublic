@@ -1,0 +1,46 @@
+console.log("Hello silly");
+VM147:1 Hello silly
+ 
+//comments are ignored by computer 
+ 
+// two forward slashes are single line comments
+ 
+/* this is for ignored comments for multi lines /*
+VM331:1 Uncaught SyntaxError: Invalid or unexpected token
+// two forward slashes are single line comments
+ 
+// You can store data in variables
+ 
+// to declare a variable use the let keyword
+ 
+let myVariable =5;
+ 
+console.log(myVariable);
+
+
+let myName = 'John';
+let myothername = 'adam';
+console.log(myName,myothername);
+
+let myname = 'MJ'; // this is diff to MyName as its case sensitive
+console.log(myName,myname);
+
+
+$variable1 = 200;
+200
+variable2 = 300;
+total = $variable1 + variable2;
+console.loge(total);
+<PRINTS 500>
+
+
+// variables must start with a letter  or $ or _
+
+// math operators
+let addition = 4+4;
+let substraction = 5-4;
+let multiply = 4*3;
+let divide = 4/2;
+
+
+console.log(addition)       // .. etc
