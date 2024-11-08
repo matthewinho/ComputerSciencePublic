@@ -1,0 +1,47 @@
+console.log("Hello silly");
+/*
+// obj dictionaries
+
+let object = {'a':1,'b':2 , 'c':3};
+console.log(object)
+// to loop through keys, ...for i in range loop
+
+
+for (key in object)
+console.log(object[key]);  //keys
+
+
+// to return LIST OF KEYS
+mykeys = Object.keys(object);
+console.log(mykeys);
+
+// to return list of values
+
+let myvalues = Object.values(object);
+console.log(myvalues);
+
+// to return list of key, value pairs
+
+let myKVpairs = Object.entries(object);
+console.log(myKVpairs);
+
+
+//theforEach method can be used with an array
+//it passes every value in the array into
+//fuction = kind of like map() in python
+function doublevalues(valuesin){
+    console.log(valuesin*2)    
+}
+myvalues.forEach(doublevalues)
+// for .. of will loop through each
+// value in the array
+for (let v of myvalues){
+    console.log(v);
+}
+//to make an object (read dictionary)
+// from a list
+let mydictionary = Object.fromEntries(myKVpairs);
+/*
+
+
+
