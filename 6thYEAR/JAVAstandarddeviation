@@ -1,0 +1,22 @@
+let pop = [20,21,19,22,21,20,19,20,21,20]
+let len = pop.length
+let pop2 = 0
+for (let i =0; i <len; i=i+1){
+x = pop[i]
+pop2 = pop2 + x
+}
+console.log(pop2)
+let mean = pop2/len
+console.log(mean)
+ 
+let tpl = 0
+for (let i = 0; i < len; i=i+1){
+let y =pop[i] - mean
+let y2 = y*y
+tpl = tpl + y2
+}
+console.log(tpl)
+let full = Math.sqrt(tpl/(len -1))
+//console.log(full)
+let answer = Math.round(full * 100) / 100
+console.log(answer)
