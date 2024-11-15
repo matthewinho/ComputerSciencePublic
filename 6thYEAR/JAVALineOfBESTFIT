@@ -1,0 +1,16 @@
+//x = 0 
+let mj = [[8,3],[2,10]//11,3],[6,6],[5,8],[4,12],[2,1],[9,4(6,9),(1,14)]
+//list = [0][x]
+let len = mj.length
+let y = 0
+for (let i =0; i <len; i=i+1){
+x = mj[i]
+//posx = mj[0]
+y = y + x
+console.log(x)
+}
+console.log(y)
+
+let meanofY = y/len
+console.log(meanofY)
+console.log(mj[0][0])
