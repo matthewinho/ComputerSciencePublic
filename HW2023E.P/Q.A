@@ -1,0 +1,58 @@
+# Question 16(a) 
+# Examination Name: matthew keane
+guessed = []
+
+from random import randint 
+
+def guess_game(max_guesses_allowed):
+    
+    diff = input("Enter difficulty E(asy) or H(ard):")
+    if diff == "H":
+        secret_number = randint(1, 100)
+        print("hard mode has been selected..")
+    elif diff =="E":
+        ("EASY mode has been selected!")
+        secret_number = randint(1, 5)
+        
+        
+    
+    max_guess = int(input("enter your max amount of guesses"))
+    
+       
+    
+    guess_count = 0
+    user_guess = 0
+    
+    while (user_guess != secret_number):
+    
+     
+     user_guess = int(input("Enter your guess: "))
+     
+     check =  guessed.append(user_guess)
+     if guessed.count(user_guess) > 1:#
+         
+        print("Number has been guessed already!")
+         
+     
+     guess_count += 1 #Increase guess_count by 1
+     if guess_count > max_guess-1:
+         print("GAME OVER , NO MORE GUESSES LEFT")
+         print(guessed)
+         print(check)
+         exit()
+     if user_guess == secret_number:
+    
+    
+                print("Congratulations! You win!")
+                print("it took",guess_count," guesses to get the answer")
+                print(guessed)
+     elif user_guess < secret_number:
+         print("Sorry! Your guess was too low")
+     else:
+         print("Sorry! Your guess was TOO HIGH")
+    
+
+print("Welcome to the guessing game!")
+guess_game(3)
+
+
