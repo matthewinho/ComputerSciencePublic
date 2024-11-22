@@ -1,0 +1,10 @@
+To check if a number has been inputted into a list more than once, you can use the `count()` method in Python. This method counts how many times a specific element appears in the list. Here's how you can do it:
+
+```python
+my_list = [1, 2, 3, 4, 3, 5]
+number = 3
+
+if my_list.count(number) > 1:
+    print("Number appears more than once in the list!")
+else:
+    print("Number does not appear more than once.")
