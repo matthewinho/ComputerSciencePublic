@@ -1,0 +1,26 @@
+counts2 = dict({}) #create a dictionary
+print(counts)
+
+counts['games'] = 24
+print(counts)
+counts['players'] =200
+print(counts)
+
+#TO find number of item in dictionary
+print(len(counts))
+
+
+# To check if KEY IS IN DICTIONARY
+
+if "players" in counts:
+    print("players found")
+    #boolean check
+    
+if "managers" not in counts:
+    print("managers not found")
+    
+print(counts["games"], " <- - number of games")
+print(counts)
+print(counts.get("games")) #returns game value  - returns none if no key
+print(counts)
+print(counts.pop("games"))
