@@ -1,0 +1,48 @@
+def get_numbers():
+    numbers = []
+    
+    while True:
+        user_input = input("Enter a number between 0 and 999 (or any letter to stop): ")
+        
+            
+        # Check if the input is a valid number
+        if user_input.isdigit():
+            number = int(user_input)
+            if 0 <= number <= 999:
+                numbers.append(number)
+                print(numbers)# Add valid numbers to the list
+            else:
+                print("Please enter a number between 0 and 999.")
+        else:
+            print("Invalid input. Please enter a valid number.")
+
+        if user_input.isalpha():
+            print("You entered the following numbers:", numbers)
+        
+        # Calculate mean
+            mean = sum(numbers) / len(numbers)
+        
+        # Calculate median
+            sorted_numbers = sorted(numbers)
+            range1 = sorted_numbers[0], sorted_numbers[-1]
+            mid = len(sorted_numbers) // 2
+            minimum = sorted_numbers[0]
+            
+            maximum = sum(sorted_numbers)
+           
+            x = 0 
+            mj = dict({})
+                
+            if len(sorted_numbers) % 2 == 0:
+                median = (sorted_numbers[mid - 1] + sorted_numbers[mid]) / 2
+            else:
+                median = sorted_numbers[mid]
+            while x <(len(sorted_numbers)):
+                     asa = numbers[x] 
+                     b = numbers.count(asa)
+                     x  = x+1
+                   
+                     mj[asa] = b
+                     
+                     
+                     
