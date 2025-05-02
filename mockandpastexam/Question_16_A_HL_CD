@@ -1,0 +1,57 @@
+#Question_16_A_HL
+#Enter your name here: matthew keane
+
+s = 0
+vowels = 'aeiou' 
+sentence = input("Please enter a sentence: ")
+
+a = 's'
+b = 'S'
+meows = sentence.count('S')
+bark = sentence.count('s')
+ans = bark+meows
+print("there is ",ans,"s's in the sentence")
+"""
+#ii 
+lower = sentence.lower()
+
+print("your sentence in lowercase is", lower)
+
+# I was going to use string.count but it wasnt working for me
+#
+amount = 0
+for VOWEL in lower:
+    
+    
+    if VOWEL in vowels:
+        amount = amount + 1
+print("there is ",amount,"vowels ")
+
+#iii
+numbers = []
+letters = []
+for line in sentence:
+    
+    if line.isalpha():
+        letters.append(line)
+        
+    elif line.isdigit():
+        numbers.append(line)
+alphlen = len(letters)
+numlen = len(numbers)
+print(alphlen, "is the amount of letters")
+print(numlen, "is the amount of numbers")
+"""
+#iv
+# for future would I need to make it so that it ONLY intakes letters?
+#or is this fine? as in the example it gives their input only consists of letters not numbers
+x = 0
+words = []
+sentencelength = len(sentence)
+b = sentence.split(' ')
+answer4 = len(b)
+print("the number of words are", answer4)
+        
+        
+        
+
