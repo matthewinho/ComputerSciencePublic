@@ -1,0 +1,43 @@
+#Question_l6_B_HL
+#Enter your name here: matthew keane
+import random
+print("Welcome to my shop") 
+total = 0
+item_list = []
+item_prices = []
+x = 0
+#dic = {}
+while x <=0:
+    
+    user = input("what you like to buy? ")
+    if user == "stop":
+        x =5
+    elif x == 0:
+        
+        price = float(input("enter the price of the item  :"))
+        total = total +price
+        item_prices.append(price)
+        dic[user] = price
+        item_list.append(user)
+    
+highest = max(item_prices)
+lowest = min(item_prices)
+
+print(item_list)
+print(item_prices)
+print("grand total of €",total)
+
+
+fruitcheck = random.choice(item_list)
+
+print("your fruit being checked is",fruitcheck)
+    
+for i in range(len(item_list)):
+    
+    if item_prices[i] ==highest:
+        
+        print("the highest priced fruit is", item_list[i])
+    if item_prices[i] ==lowest:
+       
+        print("the LOWEST priced fruit is", item_list[i])
+
