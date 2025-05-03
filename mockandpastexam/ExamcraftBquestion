@@ -17,7 +17,7 @@ while x <=0:
         price = float(input("enter the price of the item  :"))
         total = total +price
         item_prices.append(price)
-        dic[user] = price
+        #dic[user] = price
         item_list.append(user)
     
 highest = max(item_prices)
