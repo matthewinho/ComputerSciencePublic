@@ -5,11 +5,11 @@ s = 0
 vowels = 'aeiou' 
 sentence = input("Please enter a sentence: ")
 
-a = 's'
-b = 'S'
-meows = sentence.count('S')
-bark = sentence.count('s')
-ans = bark+meows
+#a = 's'
+#b = 'S'
+big = sentence.count('S')
+small = sentence.count('s')
+ans = big+small
 print("there is ",ans,"s's in the sentence")
 """
 #ii 
