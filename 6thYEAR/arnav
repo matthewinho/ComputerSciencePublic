@@ -1,0 +1,7 @@
+
+maximum = (item_prices[0], 0)  # Correctly initializing the tuple
+for index, price in enumerate(item_prices):  # Iterate over item_prices, not maximum
+    if price > maximum[0]:  # Access tuple elements properly
+        maximum = (price, index)  # Reassign the whole tuple
+
+print(maximum)
