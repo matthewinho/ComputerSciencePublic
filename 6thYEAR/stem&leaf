@@ -1,0 +1,23 @@
+#stem and leaf
+
+l = [35,24,14,10]
+tens = []
+units = []
+dictionary = {}
+x=0
+for i in l:
+    #print(i)#
+    div = i//10
+    if div not in dictionary :
+         
+         dictionary[div]=[]
+  
+    
+    
+    b = i%10
+    dictionary[div].append(b)
+    
+print(dictionary)
+
+for k , v in dictionary.items():
+    print(k,v)
